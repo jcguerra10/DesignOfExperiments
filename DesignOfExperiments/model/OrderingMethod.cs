@@ -8,7 +8,7 @@ namespace DesignOfExperiments.model
 {
     class OrderingMethod
     {
-        public void insertionSort(int[] arr)    //Metodo de ordenamiento por insercion.
+        public int[] insertionSort(int[] arr)    //Metodo de ordenamiento por insercion.
         {
             int n = arr.Length;
             for (int i = 1; i < n; ++i)
@@ -23,9 +23,11 @@ namespace DesignOfExperiments.model
                 }
                 arr[j + 1] = first;
             }
+
+            return arr;
         }
 
-        static void selectionSort(int[] arr)    //Metodo de ordenamiento por seleccion.
+        public int[] selectionSort(int[] arr)    //Metodo de ordenamiento por seleccion.
         {
             int n = arr.Length;
 
@@ -41,6 +43,8 @@ namespace DesignOfExperiments.model
                 arr[min] = arr[i];
                 arr[i] = temp;
             }
+
+            return arr;
         }
     }
 }

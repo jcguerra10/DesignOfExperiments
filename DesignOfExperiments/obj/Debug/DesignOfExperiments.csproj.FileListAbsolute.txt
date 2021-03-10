@@ -1,0 +1,6 @@
+J:\Proyecto Integrador 1\DesignExperiments\DesignOfExperiments\bin\Debug\DesignOfExperiments.exe
+J:\Proyecto Integrador 1\DesignExperiments\DesignOfExperiments\bin\Debug\DesignOfExperiments.pdb
+J:\Proyecto Integrador 1\DesignExperiments\DesignOfExperiments\obj\Debug\DesignOfExperiments.csprojAssemblyReference.cache
+J:\Proyecto Integrador 1\DesignExperiments\DesignOfExperiments\obj\Debug\DesignOfExperiments.csproj.CoreCompileInputs.cache
+J:\Proyecto Integrador 1\DesignExperiments\DesignOfExperiments\obj\Debug\DesignOfExperiments.exe
+J:\Proyecto Integrador 1\DesignExperiments\DesignOfExperiments\obj\Debug\DesignOfExperiments.pdb

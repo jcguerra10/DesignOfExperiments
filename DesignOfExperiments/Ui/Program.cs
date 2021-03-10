@@ -1,4 +1,5 @@
 ﻿using System;
+using DesignOfExperiments.model;
 
 namespace DesignOfExperiments
 {
@@ -12,14 +13,24 @@ namespace DesignOfExperiments
 
         private int[] invertedArray1 = {6, 5, 4, 1};
         private int[] invertedArray2 = {140, 80, 70, 20};
-        
+
+        private static OrderingMethod om = new OrderingMethod();
+
         public static void Main(string[] args)
         {
             int[] s = generateArray(12);
+
+            Console.WriteLine("Arreglo generado");
             foreach (var i in s)
             {
-                Console.WriteLine(i);
+                Console.Write(i + " ");
             }
+            Console.Write("\n");
+            Console.WriteLine("Arreglo ordenado");
+
+            printArray(om.insertionSort(s));
+            
+            Console.ReadKey();
         }
 
         private static int[] generateArray(int n)
@@ -32,6 +43,16 @@ namespace DesignOfExperiments
             }
 
             return gen;
+        }
+
+        private static void printArray(int[] arr)
+        {
+            int n = arr.Length;
+            for (int i = 0; i < n; ++i)
+            {
+                Console.Write(arr[i] + " ");
+            } 
+            Console.Write("\n");
         }
     }
 }
