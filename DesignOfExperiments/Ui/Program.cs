@@ -47,6 +47,8 @@ namespace DesignOfExperiments
                 Console.WriteLine((sw.Elapsed.TotalSeconds));
                 Console.WriteLine();
             }
+
+            Console.ReadKey();
         }
 
         private static int[] generateArray(int n)
