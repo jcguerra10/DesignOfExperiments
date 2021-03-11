@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using DesignOfExperiments.model;
 
 namespace DesignOfExperiments
@@ -18,19 +19,34 @@ namespace DesignOfExperiments
 
         public static void Main(string[] args)
         {
-            int[] s = generateArray(12);
+            OrderingMethod om = new OrderingMethod();
+            int[] s;
+            int[] temp;
 
-            Console.WriteLine("Arreglo generado");
-            foreach (var i in s)
+            Stopwatch sw = new Stopwatch();
+
+            for (int i = 2; i < 6; i++)
             {
-                Console.Write(i + " ");
-            }
-            Console.Write("\n");
-            Console.WriteLine("Arreglo ordenado");
+                s = generateArray((int) Math.Pow(10, i));
 
-            printArray(om.insertionSort(s));
-            
-            Console.ReadKey();
+                Console.WriteLine("10^"+i+" InsertionSort");
+                sw.Start();
+                temp = om.insertionSort((int[]) s.Clone());
+                sw.Stop();
+                Console.Write("Time in seconds: ");
+                Console.WriteLine((sw.Elapsed.TotalSeconds));
+                Console.WriteLine();
+
+                sw.Reset();
+
+                Console.WriteLine("10^"+i+" SelectionSort");
+                sw.Start();
+                temp = om.insertionSort((int[]) s.Clone());
+                sw.Stop();
+                Console.Write("Time in seconds: ");
+                Console.WriteLine((sw.Elapsed.TotalSeconds));
+                Console.WriteLine();
+            }
         }
 
         private static int[] generateArray(int n)
@@ -39,7 +55,7 @@ namespace DesignOfExperiments
             int[] gen = new int[n];
             for (int i = 0; i < n; i++)
             {
-                gen[i] = r.Next(1, 100001);
+                gen[i] = r.Next(1, 1000000001);
             }
 
             return gen;
