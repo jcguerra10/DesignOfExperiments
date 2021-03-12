@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignOfExperiments.model
 {
-    class OrderingMethod
+    public class OrderingMethod
     {
         public int[] insertionSort(int[] arr)    //Metodo de ordenamiento por insercion.
         {

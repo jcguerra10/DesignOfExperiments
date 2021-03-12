@@ -4,3 +4,9 @@ J:\Proyecto Integrador 1\DesignExperiments\DesignOfExperiments\obj\Debug\DesignO
 J:\Proyecto Integrador 1\DesignExperiments\DesignOfExperiments\obj\Debug\DesignOfExperiments.csproj.CoreCompileInputs.cache
 J:\Proyecto Integrador 1\DesignExperiments\DesignOfExperiments\obj\Debug\DesignOfExperiments.exe
 J:\Proyecto Integrador 1\DesignExperiments\DesignOfExperiments\obj\Debug\DesignOfExperiments.pdb
+C:\Users\diego\Source\Repos\DesignOfExperiments\DesignOfExperiments\bin\Debug\DesignOfExperiments.exe
+C:\Users\diego\Source\Repos\DesignOfExperiments\DesignOfExperiments\bin\Debug\DesignOfExperiments.pdb
+C:\Users\diego\Source\Repos\DesignOfExperiments\DesignOfExperiments\obj\Debug\DesignOfExperiments.csprojAssemblyReference.cache
+C:\Users\diego\Source\Repos\DesignOfExperiments\DesignOfExperiments\obj\Debug\DesignOfExperiments.csproj.CoreCompileInputs.cache
+C:\Users\diego\Source\Repos\DesignOfExperiments\DesignOfExperiments\obj\Debug\DesignOfExperiments.exe
+C:\Users\diego\Source\Repos\DesignOfExperiments\DesignOfExperiments\obj\Debug\DesignOfExperiments.pdb
