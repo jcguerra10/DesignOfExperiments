@@ -46,5 +46,6 @@ namespace DesignOfExperiments.model
 
             return arr;
         }
+
     }
 }
